@@ -1,2 +1,2 @@
-# chrisruiz04.github.io
-PS70 Digital Fabrication
+# ps70
+ Repo for PS70 - Intro to Digital Fabrication
