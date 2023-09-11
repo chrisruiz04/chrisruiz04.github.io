@@ -21,4 +21,6 @@ p {font-size: 16px;}
 .image-row {
   display: flex;
   justify-content: space-between; /* this will add equal space between each image */
+  margin-right: 150px;
+  margin-left: 150px;
 }
