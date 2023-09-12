@@ -24,3 +24,7 @@ p {font-size: 16px;}
     grid-template-rows: repeat(3, 5vw);
     grid-gap: 15px;
 }
+
+.marg {
+    margin:100px
+}
