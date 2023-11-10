@@ -19,17 +19,24 @@
  
  <body style="background-color: #87CEFA">
  
+    <h1 style="margin-left: 50px">Project 3: Microcontrollers and Programming</h1>
+    <h2 style="margin-left: 50px">Carousel (Part 2)</h2>
  
 <p style="margin-left: 50px; margin-right: 50px">This week, I was tasked with using Arduino and C++ to do something. I immediately thought of last week, and wanted to salvage (and finish) my imperfect cardboard carousel and use Arduino to add a song while the carousel spins.</p>
-<br><p style="margin-left: 50px; margin-right: 50px">First, I will talk about the problems I had with the carousel prototype. To start off, I knew that it was time to switch to wood. Cardboard wasn't cutting it, and the flimsiness and thinness of the cardboard gears meant that they kept shifting off of each other and the teeth wouldn't lock anmymore. So, I cut out some wooden gears with a thickness of ~1 centimeter so they would weigh themselves down and the teeth would latch. Another issue I had with the previous week is that the motor kept getting disattached from the shaft. To fix this, I custom made a shaft with a hole that was perfect for the motor, and hot glued the two together so that slippage wouldn't be  a problem. </p> 
-<br><img style="text-align: center;" src="gear.png" width="500" height="500" class="center">
-<br><p style="margin-left: 50px; margin-right: 50px">And now, for the actual assignment: Arduino! I only have a little prior experience with Arduino, so I used the skills that I remembered to manipulate a buzzer to play the Can Can song while the carousel would spin! Here are some code snippets:</p>
-<br><p style="margin-left: 50px; margin-right: 50px">I used cardboard and wooden sticks, along with a little help from my friend hot glue, to assemble the first iteration of the carousel. </p> 
-<br><img style="text-align: center;" src="carousel.png" width="500" height="500" class="center"> <img style="text-align: center;" src="fishie.png" width="500" height="500" class="center">
+<br><p style="margin-left: 50px; margin-right: 50px">First, I will talk about the problems I had with the carousel prototype. To start off, I knew that it was time to switch to wood. Cardboard wasn't cutting it, and the flimsiness and thinness of the cardboard gears meant that they kept shifting off of each other and the teeth wouldn't lock anmymore. So, I cut out some wooden gears with a thickness of ~1 centimeter so they would weigh themselves down and the teeth would latch. Another issue I had with the previous week is that the motor kept getting disattached from the shaft. To fix this, I custom made a shaft with a hole that was perfect for the motor, and hot glued the two together so that slippage wouldn't be  a problem. You will be able to see the final product in the video below.</p> 
+<br><img style="text-align: center;" src="buzzer4.png" width="500" height="500" class="center">
+<br><p style="margin-left: 50px; margin-right: 50px">And now, for the actual assignment: Arduino! I only have a little prior experience with Arduino, so I used the skills that I remembered to manipulate a buzzer to play the Can Can song while the carousel would spin!</p>
+<br><p style="margin-left: 50px; margin-right: 50px">Programming the buzzer was less tedious than I thought it would be. I considered creating a function, but since I only wanted the buzzer to play the song once when prompted on a button, I was content writing out the code line by line in an if statement to program the notes. In the future, if I wanted to modify this project, I would probably create a function to store the notes in instead of having it in the main loop. Here is the end of the song. I used the "pitches" library that did a lot of the heavy lifting for this code. I also found some example code that defined the notes (A4, for example) as their pitch values so that I could store 440hz as A4 rather than calling it every time. Also, I used the delay function so that 250 ms is a half note, 500 ms is a whole note, and so on and so forth. </p> 
+<br><img style="text-align: center;" src="buzzer1.png" width="500" height="500" class="center"> <img style="text-align: center;" src="buzzer1.png" width="500" height="500" class="center">
+<br><img style="text-align: center;" src="buzzer3.png" width="500" height="500" class="center"> <img style="text-align: center;" src="buzzer3.png" width="500" height="500" class="center">
+<br><img style="text-align: center;" src="buzzer2.png" width="500" height="500" class="center"> <img style="text-align: center;" src="buzzer2.png" width="500" height="500" class="center">
+
 
 <video controls>
-    <source src="carousel.mp4" type="video/mp4">
-</video> 
+    <source src="carousel1.mp4" type="video/mp4">
+</video>
+
+<p>I even used the photo lab to capture my carousel in action! It is hard to hear, but the song is playing! </p>
  </body>
  
  <script src="./strapdown.js"></script>
